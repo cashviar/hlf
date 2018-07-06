@@ -25,6 +25,7 @@ var util = require('util');
 var app = express();
 var expressJWT = require('express-jwt');
 var jwt = require('jsonwebtoken');
+var bearerToken = require('express-bearer-token');
 var cors = require('cors');
 var config = require('./config.json');
 var helper = require('./app/helper.js');
