@@ -1,2 +1,2 @@
 # hlf
-Hyperledger Fabric samples
+Hyperledger Fabric samples - v1.0.0
