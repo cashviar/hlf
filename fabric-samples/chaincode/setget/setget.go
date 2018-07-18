@@ -26,6 +26,7 @@ func (t *SetGetChaincode) Init(stub shim.ChaincodeStubInterface) pb.Response {
 // Implement the Invoke
 func (t *SetGetChaincode) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
 	fmt.Println("Start Invoke")
+	defer fmt.Println("Stop Invoke")
 
 	// Get function name and args
 	function, args := stub.GetFunctionAndParameters()
